@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
                 int numeroAleatorio = randomico.nextInt(10);
 
-                textoResultado.setText("Número escolhido: "+ numeroAleatorio);
+                textoResultado.setText("Número: "+ numeroAleatorio);
 
             }
         });
